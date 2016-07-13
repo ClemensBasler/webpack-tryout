@@ -2,7 +2,9 @@
   "name": "webpack-tryout",
   "version": "1.0.0",
   "babel": {
-    "presets": [ "es2015" ]
+    "presets": [
+      "es2015"
+    ]
   },
   "description": "",
   "main": "./src/app.js",
@@ -27,6 +29,7 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
+    "angular": "^1.5.7",
     "babel-polyfill": "^6.9.1",
     "jquery": "^3.0.0"
   }
